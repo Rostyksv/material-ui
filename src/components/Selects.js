@@ -21,7 +21,7 @@ function Selects({ props }) {
                 <Typography variant='h2' align='center' color='textPrimary' gutterBottom>
                     Mars Rover Photos
                 </Typography>
-                <Typography style={{textIndent:'2rem', whiteSpace: 'break-spaces'}} variant='h5' color='textSecondary' paragraph>
+                <Typography className={classes.about} variant='h5' color='textSecondary' paragraph>
                     This website is designed to collect image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars.
                     Photos are organized by the sol (Martian rotation or day) on which they were taken, counting up from the rover's landing date. 
                     A photo taken on Curiosity's 1000th Martian sol exploring Mars, for example, will have a sol attribute of 1000.

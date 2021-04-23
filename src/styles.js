@@ -1,6 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
+  about: {
+    textIndent:'2rem', 
+    textAlign: 'justify'
+  },
   alert: {
     margin: '1rem 0 0 0'
   },
